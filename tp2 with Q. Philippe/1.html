@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Formulaire</title>
+</head>
+
+<body>
+  <form method="post" action="enregistrement.php">
+    <fieldset>
+      <label for="nom">Nom</label> :
+      <input id="nom" type="text" name="nom" /><br>
+      <label for="prenom">Prenom</label>:
+      <input id="prenom" type="text" name="prenom" /><br>
+      <label>Sexe</label><br>
+      <input type="radio" name="gender" value="male">Homme<br>
+      <input type="radio" name="gender" value="female">Femme<br>
+      <input type="radio" name="gender" value="other" checked>Autre<br>
+    </fieldset>
+    <input type="submit" name="accepter" value="OK">
+  </form>
+</body>
+
+</html>
