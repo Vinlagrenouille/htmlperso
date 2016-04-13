@@ -6,7 +6,6 @@
 </head>
 
 <body>
-  
   <form method="get" action="2.php">
     <fieldset>
       <legend><b>Table de ?</b></legend>
